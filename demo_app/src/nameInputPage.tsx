@@ -20,7 +20,8 @@ export const NameInputForm = (props: { usersName: string,
                               handleStateCodeChange: (event: string) => void,
                               userCoordinates: string[],
                               handleViewChange: (e: any) => void,
-                              handleSchoolTypeChange: (event: any) => void
+                              handleSchoolTypeChange: (event: any) => void,
+                              schoolType: string
                               }) => {
   useEffect(() => {
   })
@@ -44,6 +45,7 @@ export const NameInputForm = (props: { usersName: string,
             handleCoordChange={props.handleCoordChange}
             userCoordinates={props.userCoordinates}
             handleSchoolTypeChange={props.handleSchoolTypeChange}
+            schoolType={props.schoolType}
           />
         </fieldset>
         <fieldset>

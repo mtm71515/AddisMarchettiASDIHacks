@@ -36,7 +36,8 @@ const LocationSelect = ( props: {
                                  handleStateCodeChange: (event: string) => void,
                                  handleCoordChange: (coords: string[]) => void,
                                  userCoordinates: string[],
-                                 handleSchoolTypeChange: (event: any) => void
+                                 handleSchoolTypeChange: (event: any) => void,
+                                 schoolType: string
 })  => {
 
   const getNames = (given: any) => {
@@ -101,13 +102,13 @@ const LocationSelect = ( props: {
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
-            value={"h"}
+            value={props.schoolType}
             label=""
             onChange={props.handleSchoolTypeChange}
           >
             <MenuItem value={"h"}>High School</MenuItem>
             <MenuItem value={"m"}>Middle School</MenuItem>
-            <MenuItem value={"e"}>ElementarySchools</MenuItem>
+            <MenuItem value={"e"}>Elementary Schools</MenuItem>
           </Select>
         </FormControl>
       </Box>

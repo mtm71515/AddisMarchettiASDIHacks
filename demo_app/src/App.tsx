@@ -105,6 +105,7 @@ const App = () => {
       userCoordinates={userCoordinates}
       handleViewChange={handleViewChange}
       handleSchoolTypeChange={handleSchoolTypeChange}
+      schoolType = {schoolType}
     />
 
     }
