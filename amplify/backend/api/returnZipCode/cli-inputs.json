@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/userZip/{userZipCode}": {
+      "name": "/userZip/{userZipCode}",
+      "lambdaFunction": "returnZipCodeLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

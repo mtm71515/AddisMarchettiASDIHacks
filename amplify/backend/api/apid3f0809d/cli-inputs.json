@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/modifySchools/{schools}": {
+      "name": "/modifySchools/{schools}",
+      "lambdaFunction": "returnZipCodeLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
