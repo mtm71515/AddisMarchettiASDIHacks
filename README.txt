@@ -1,8 +1,9 @@
 Instructions to run SchoolAssist: 
 
-Clone the github repo to your machine. After this, you must first run the CORS Proxy server used to call
- our public API's. Do this by running navigating to the "cors-anywhere" folder located in the demo_app
- folder ("$cd/demo_app/cors-anywhere from the demoFramework directory) and in the folder 
+Clone the github repo to your machine. Then, navigate to the "demo_app" directory ("$cd demo_app" from the initial 
+"AddisMarchettiASDIHacks" directory), and run "$npm install". After this, you must first run the CORS Proxy server used 
+to call our public API's. Do this by running navigating to the "cors-anywhere" folder located in the demo_app
+ folder ("$cd/demo_app/cors-anywhere from the AddisMarchettiASDIHacks directory) and in the folder 
  run "$node server.js"
 
  **NOTE: cors-anywhere should run on 0.0.0.0:8080 - if it runs on something else, then you must
